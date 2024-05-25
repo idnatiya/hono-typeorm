@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "format": "pnpm exec prettier . --write"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.1",
+    "@hono/zod-validator": "^0.2.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "hono": "^4.3.10",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.13",
+    "reflect-metadata": "^0.2.2",
+    "tsyringe": "^4.8.0",
+    "typeorm": "^0.3.20",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "prettier": "3.2.5",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.11.0"
+  }
+}
